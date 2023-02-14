@@ -1,100 +1,102 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/base.css">
-    <link rel="stylesheet" href="./assets/welcome.css">
-    <link rel="stylesheet" href="./assets/questions.css">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/base.css">
+  <link rel="stylesheet" href="./assets/welcome.css">
+  <link rel="stylesheet" href="./assets/questions.css">
+  <title>Document</title>
 </head>
+
 <body>
-    <div class="container-main">
-        <header>
-            <h1 class="header-title">Trivia</h1>
-        </header>
-        <main>
-            <!-- vista de bienvenida -->
-            <div id="view-welcome">
-                <form id="form-welcome">
-                    <input type="text" name="username" required>
-                    <button class="btn btn-play">Jugar</button>
-                </form>
-                
+  <div class="container-main">
+    <header>
+      <h1 class="header-title">Trivia</h1>
+    </header>
+    <main>
+      <!-- vista de bienvenida -->
+      <div id="view-welcome">
+        <form id="form-welcome">
+          <input type="text" name="username" required>
+          <button class="btn btn-play">Jugar</button>
+        </form>
+
+      </div>
+
+      <!-- Vista de preguntas -->
+      <div id="view-questions" class="hidden">
+        <form id="form-questions">
+          <div class="questions">
+            <div class="question">
+              <h2 class="question-text">¿Cual es la capital de Perú?</h2>
+
+              <div class="choices">
+
+                <label class="choice">
+                  <input type="radio" name="q1" value="Lima"> Lima
+                </label>
+
+                <label class="choice">
+                  <input type="radio" name="q1" value="Cuzco">Cuzco
+                </label>
+
+                <label class="choice">
+                  <input type="radio" name="q1" value="Arequipa">Arequipa
+                </label>
+              </div>
+
+            </div>
+            <div class="question">
+              <h2 class="question-text">¿Cual es la capital de Perú?</h2>
+
+              <div class="choices">
+
+                <label class="choice">
+                  <input type="radio" name="q2"> Lima
+                </label>
+
+                <label class="choice">
+                  <input type="radio" name="q2">Cuzco
+                </label>
+
+                <label class="choice">
+                  <input type="radio" name="q2">Arequipa
+                </label>
+              </div>
+
+            </div>
+            <div class="question">
+              <h2 class="question-text">¿Cual es la capital de Perú?</h2>
+
+              <div class="choices">
+
+                <label class="choice">
+                  <input type="radio" name="q3"> Lima
+                </label>
+
+                <label class="choice">
+                  <input type="radio" name="q3">Cuzco
+                </label>
+
+                <label class="choice">
+                  <input type="radio" name="q3">Arequipa
+                </label>
+              </div>
+
             </div>
 
-            <!-- Vista de preguntas -->
-            <div id="view-questions" class="hidden">
-                <form id="form-questions">
-                    <div class="questions">
-                        <div class="question">
-                            <h2 class="question-text">¿Cual es la capital de Perú?</h2>
-    
-                            <div class="choices">
-                                
-                                <label class="choice" >
-                                    <input type="radio" name="q1" value="Lima"> Lima
-                                </label>
-                                
-                                <label class="choice" > 
-                                    <input type="radio" name="q1" value="Cuzco">Cuzco
-                                </label>
-                                
-                                <label class="choice" >
-                                    <input type="radio" name="q1" value="Arequipa">Arequipa
-                                </label>
-                            </div>
-                            
-                        </div>
-                        <div class="question">
-                            <h2 class="question-text">¿Cual es la capital de Perú?</h2>
-    
-                            <div class="choices">
-                                
-                                <label class="choice" >
-                                    <input type="radio" name="q2"> Lima
-                                </label>
-                                
-                                <label class="choice" > 
-                                    <input type="radio" name="q2">Cuzco
-                                </label>
-                                
-                                <label class="choice" >
-                                    <input type="radio" name="q2">Arequipa
-                                </label>
-                            </div>
-                            
-                        </div>
-                        <div class="question">
-                            <h2 class="question-text">¿Cual es la capital de Perú?</h2>
-    
-                            <div class="choices">
-                                
-                                <label class="choice" >
-                                    <input type="radio" name="q3"> Lima
-                                </label>
-                                
-                                <label class="choice" > 
-                                    <input type="radio" name="q3">Cuzco
-                                </label>
-                                
-                                <label class="choice" >
-                                    <input type="radio" name="q3">Arequipa
-                                </label>
-                            </div>
-                            
-                        </div>
-                        
-                        
-                          
-                    </div>
-                    <button type="reset" class="btn btn-main">Limpiar</button>
-                    <button type="submit" class="btn btn-main">Enviar</button>
-                </form>
-            </div>
-        </main>
-    </div>
-    <script src="./script/main.js"></script>
+
+
+          </div>
+          <button type="submit" class="btn btn-main">Enviar</button>
+        </form>
+      </div>
+    </main>
+  </div>
+  <script src="./script/main.js"></script>
 </body>
+
 </html>

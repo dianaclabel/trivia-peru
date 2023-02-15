@@ -7,7 +7,7 @@ bienvenidaForm.addEventListener("submit", (event) =>{
 
     const nombreUsuario = datos.get("nombreUsuario");
 
-    alert("Bienvenidx, " + nombreUsuario);
+    alert("Bienvenida, " + nombreUsuario);
 
     mostrarVistaTema();
 });

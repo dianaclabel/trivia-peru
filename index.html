@@ -5,9 +5,9 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./assets/base.css">
-  <link rel="stylesheet" href="./assets/bienvenida.css">
-  <link rel="stylesheet" href="./assets/preguntas.css">
+  <link rel="stylesheet" href="./estilos/base.css">
+  <link rel="stylesheet" href="./estilos/bienvenida.css">
+  <link rel="stylesheet" href="./estilos/preguntas.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
@@ -23,7 +23,7 @@
       <!-- vista de bienvenida -->
       <div id="vista-bienvenida">
         <div class="contenedor-img">
-          <img class="img-bienvenida" src="./assets/images/img-peru.png">
+          <img class="img-bienvenida" src="./estilos/images/img-peru.png">
         </div>
         <form id="form-bienvenida">
           <input type="text" name="nombreUsuario" required>
@@ -36,14 +36,14 @@
       <div id="vista-tema" class="oculto">
         <form id="form-tema">
           <label class="alternativa">
-            <input type="radio" name="tema" value="comidas" >comidas
+            <input type="radio" name="tema" value="comidas"> Historia del Perú
           </label>
 
           <label class="alternativa">
-            <input type="radio" name="tema" value="culturas" >Culturas
+            <input type="radio" name="tema" value="culturas"> Cultura general
           </label>
 
-          <button class="btn btn-jugar">elegir</button>
+          <button class="btn btn-elegir">Elegir</button>
         </form>
 
       </div>
@@ -78,7 +78,7 @@
               <div class="alternativas">
 
                 <label class="alternativa">
-                  <input type="radio" name="a2" id="cajamarca" value="cajamarca">  Cajamarca
+                  <input type="radio" name="a2" id="cajamarca" value="cajamarca"> Cajamarca
                 </label>
 
                 <label class="alternativa">
@@ -120,10 +120,10 @@
       </div>
     </main>
   </div>
-  <script src="./script/base.js"></script>
-  <script src="./script/bienvenida.js"></script>
-  <script src="./script/tema.js"></script>
-  <script src="./script/preguntas.js"></script>
+  <script src="./logica/base.js"></script>
+  <script src="./logica/bienvenida.js"></script>
+  <script src="./logica/tema.js"></script>
+  <script src="./logica/preguntas.js"></script>
 </body>
 
 </html>

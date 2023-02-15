@@ -8,17 +8,23 @@
   <link rel="stylesheet" href="./assets/base.css">
   <link rel="stylesheet" href="./assets/welcome.css">
   <link rel="stylesheet" href="./assets/questions.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
   <title>Trivia</title>
 </head>
 
 <body>
   <div class="container-main">
     <header>
-      <h1 class="header-title">Trivia</h1>
+      <h1 class="header-title">Conociendo sobre Perú</h1>
     </header>
     <main>
       <!-- vista de bienvenida -->
       <div id="view-welcome">
+        <div class="container-img">
+          <img class="img-welcome" src="./assets/images/img-peru.png">
+        </div>
         <form id="form-welcome">
           <input type="text" name="username" required>
           <button class="btn btn-play">Jugar</button>
@@ -36,55 +42,57 @@
               <div class="choices">
 
                 <label class="choice">
-                  <input type="radio" name="q1" value="Lima"> Lima
+                  <input type="radio" name="q1" value="Lima" id=lima onclick="seleccion()">Lima
                 </label>
 
                 <label class="choice">
-                  <input type="radio" name="q1" value="Cuzco">Cuzco
+                  <input type="radio" name="q1" value="Cuzco" id=cuzco onclick="seleccion()">Cuzco
                 </label>
 
                 <label class="choice">
-                  <input type="radio" name="q1" value="Arequipa">Arequipa
+                  <input type="radio" name="q1" value="Arequipa" id=arequipa onclick="seleccion()">Arequipa
                 </label>
               </div>
 
             </div>
             <div class="question">
-              <h2 class="question-text">¿Cual es la capital de Perú?</h2>
+              <h2 class="question-text">¿en que departamento se encuentra cultura Nazca en el Perú ?</h2>
 
               <div class="choices">
 
                 <label class="choice">
-                  <input type="radio" name="q2"> Lima
+                  <input type="radio" name="q2" id="cajamarca">Cajamarca
                 </label>
 
                 <label class="choice">
-                  <input type="radio" name="q2">Cuzco
+                  <input type="radio" name="q2" id="ica">Ica
                 </label>
 
                 <label class="choice">
-                  <input type="radio" name="q2">Arequipa
+                  <input type="radio" name="q2" id="puno"> Puno
                 </label>
               </div>
 
             </div>
             <div class="question">
-              <h2 class="question-text">¿Cual es la capital de Perú?</h2>
+              <h2 class="question-text">¿Cuantos departamentos encontramos en el Perú?</h2>
 
               <div class="choices">
 
                 <label class="choice">
-                  <input type="radio" name="q3"> Lima
+                  <input type="radio" name="q3" id="veintidos">22
                 </label>
 
                 <label class="choice">
-                  <input type="radio" name="q3">Cuzco
+                  <input type="radio" name="q3" id="veinte">20
                 </label>
 
                 <label class="choice">
-                  <input type="radio" name="q3">Arequipa
+                  <input type="radio" name="q3" id="veinticuatro">24
                 </label>
               </div>
+
+
 
             </div>
 
@@ -95,6 +103,7 @@
     </main>
   </div>
   <script src="./script/main.js"></script>
+  <script src="./script/app.js"></script>
 </body>
 
 </html>

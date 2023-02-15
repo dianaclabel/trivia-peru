@@ -5,4 +5,15 @@
     flex-direction: column;
 }
 
+.container-img{
+  text-align: center;
+}
 
+.img-welcome{
+  width: 40%;
+}
+
+.header-title{
+  font-size: 30px;
+  font-family: 'Roboto', sans-serif;
+}

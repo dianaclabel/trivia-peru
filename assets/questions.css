@@ -1,5 +1,9 @@
 
 .choice{
   display: block; 
-    margin-bottom: 4px;
+  margin-bottom: 4px;
+  margin-right: 4px;
+  padding-block-start: 10px;
+  
+
 }

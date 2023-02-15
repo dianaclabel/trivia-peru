@@ -36,14 +36,15 @@
       <div id="vista-tema" class="oculto">
         <form id="form-tema">
           <label class="alternativa">
-            <input type="radio" name="tema" value="comidas"> Historia del Perú
+            <input type="radio" name="tema" value="Historia del Perú" required> Historia del Perú
           </label>
 
           <label class="alternativa">
-            <input type="radio" name="tema" value="culturas"> Cultura general
+            <input type="radio" name="tema" value="Cultura General"> Cultura General
           </label>
 
           <button class="btn btn-elegir">Elegir</button>
+          <button type="button" class="btn btn-volver" onclick="mostrarVistaBienvenida()">Volver</button>
         </form>
 
       </div>
@@ -55,66 +56,60 @@
           <div class="preguntas">
             <div class="pregunta">
               <h2 class="pregunta-text">¿Cual es la capital de Perú?</h2>
-
               <div class="alternativas">
 
                 <label class="alternativa">
-                  <input type="radio" name="a1" value="Lima" id=lima>Lima
+                  <input type="radio" name="pregunta1" value="Lima" id=lima required>Lima
                 </label>
 
                 <label class="alternativa">
-                  <input type="radio" name="a1" value="Cuzco" id=cuzco>Cuzco
+                  <input type="radio" name="pregunta1" value="Cuzco" id=cuzco>Cuzco
                 </label>
 
                 <label class="alternativa">
-                  <input type="radio" name="a1" value="Arequipa" id=arequipa>Arequipa
+                  <input type="radio" name="pregunta1" value="Arequipa" id=arequipa>Arequipa
                 </label>
               </div>
-
             </div>
+
             <div class="pregunta">
               <h2 class="pregunta-text">¿en que departamento se encuentra cultura Nazca en el Perú ?</h2>
-
               <div class="alternativas">
 
                 <label class="alternativa">
-                  <input type="radio" name="a2" id="cajamarca" value="cajamarca"> Cajamarca
+                  <input type="radio" name="pregunta2" value="cajamarca" required> Cajamarca
                 </label>
 
                 <label class="alternativa">
-                  <input type="radio" name="a2" id="ica" value="Ica">Ica
+                  <input type="radio" name="pregunta2" value="Ica">Ica
                 </label>
 
                 <label class="alternativa">
-                  <input type="radio" name="a2" id="puno" value="Puno"> Puno
+                  <input type="radio" name="pregunta2" value="Puno"> Puno
                 </label>
               </div>
-
             </div>
+
             <div class="pregunta">
               <h2 class="pregunta-text">¿Cuantos departamentos encontramos en el Perú?</h2>
-
               <div class="alternativas">
 
                 <label class="alternativa">
-                  <input type="radio" name="a3" id="veintidos" value="22">22
+                  <input type="radio" name="pregunta3" value="22" required>22
                 </label>
 
                 <label class="alternativa">
-                  <input type="radio" name="a3" id="veinte" value="20">20
+                  <input type="radio" name="pregunta3" value="20">20
                 </label>
 
                 <label class="alternativa">
-                  <input type="radio" name="a3" id="veinticuatro" value="24">24
+                  <input type="radio" name="pregunta3" value="24">24
                 </label>
               </div>
-
-
-
             </div>
-
           </div>
-          <button type="button" class="btn btn-principal" id="btn-form">Enviar</button>
+
+          <button class="btn btn-principal">Enviar</button>
           <button type="button" class="btn btn-volver" onclick="mostrarVistaTema()">Volver</button>
         </form>
       </div>

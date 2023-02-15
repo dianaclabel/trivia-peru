@@ -4,13 +4,27 @@
     padding: 0;
 }
 
-.hidden {
+.oculto {
     display: none;
 }
 
-.container-main{
+.contenedor-principal{
     border: 1px black solid;
+    border-radius: 20px;
     width: 60%;
     margin: auto;
+    margin-top: 100px;
+    padding: 30px;
+
+}
+
+.btn {
+    text-align: center;
+    margin:30px;
+    height: 30px;
+    width: 250px;
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    border: 1px black solid;
 }
 

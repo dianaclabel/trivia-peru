@@ -1,11 +1,11 @@
-document.getElementById('button-form').onclick = function() {
+document.getElementById('btn-form').onclick = function() {
   let opcionmarcada1;
   let opcionmarcada2;
   let opcionmarcada3;
 //let respuestaCorrectas = [];
 //let respuestasIncorrectas = []; 
   
-  let opciones1 = document.getElementsByName('q1');
+  let opciones1 = document.getElementsByName('a1');
   for (let opcion1 of opciones1) {
     if (opcion1.checked) {
       opcionmarcada1 = opcion1.value;
@@ -18,7 +18,7 @@ document.getElementById('button-form').onclick = function() {
     }
   }
 
-  let opciones2 = document.getElementsByName('q2');
+  let opciones2 = document.getElementsByName('a2');
   for (let opcion2 of opciones2) {
     if (opcion2.checked) {
       opcionmarcada2 = opcion2.value;
@@ -31,7 +31,7 @@ document.getElementById('button-form').onclick = function() {
     }
   }
 
-  let opciones3 = document.getElementsByName('q3');
+  let opciones3 = document.getElementsByName('a3');
   for (let opcion3 of opciones3) {
     if (opcion3.checked) {
       opcionmarcada3 = opcion3.value;
@@ -43,7 +43,7 @@ document.getElementById('button-form').onclick = function() {
       }
     }
   }
-  //alert(opcionmarcada1 + ", " + opcionmarcada2 + " y " + opcionmarcada3);
+  alert(opcionmarcada1 + ", " + opcionmarcada2 + " y " + opcionmarcada3);
   // alert( respuesta1 + " " respuesta2);
 
 }

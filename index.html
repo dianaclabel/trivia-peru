@@ -35,9 +35,11 @@
 
       <!-- vista de tema-->
       <div id="vista-tema" class="oculto">
-        <div>
-          <p>Bienvenida, <span class="usuario"></span></p>
-        </div>
+        
+        <p class="saludo-usuario">Bienvenida, <span class="usuario"></span></p>
+
+        <p class="vista-tema-text">Elige tu tema:</p>
+
         <form id="form-tema">
           <label class="tema">
             <input type="radio" name="tema" value="Historia del Perú" required> Historia del Perú
@@ -47,8 +49,10 @@
             <input type="radio" name="tema" value="Cultura General"> Cultura General
           </label>
 
-          <button type="submit" class="btn btn-elegir">Elegir</button>
-          <button type="button" class="btn btn-volver" onclick="mostrarVistaBienvenida()">Volver</button>
+          <div class="botones">
+            <button type="button" class="btn btn-volver" onclick="mostrarVistaBienvenida()">Volver</button>
+            <button type="submit" class="btn btn-elegir">Elegir</button>
+          </div>
         </form>
 
       </div>
@@ -56,13 +60,13 @@
 
       <!-- Vista de preguntas -->
       <div id="vista-preguntas" class="oculto">
-        <div>
-          <p>Bienvenida, <span class="usuario"></span></p>
-        </div>
+        
+        <p class="saludo-usuario">Bienvenida, <span class="usuario"></span></p>
+        
         <form id="form-preguntas">
           <div class="preguntas">
             <div class="pregunta">
-              <h2 class="pregunta-text">¿Cual es la capital de Perú?</h2>
+              <h3 class="pregunta-text">¿Cual es la capital de Perú?</h3>
               <div class="alternativas">
 
                 <label class="alternativa">
@@ -83,7 +87,7 @@
             </div>
 
             <div class="pregunta">
-              <h2 class="pregunta-text">¿En que departamento se encuentra cultura Nazca en el Perú ?</h2>
+              <h3 class="pregunta-text">¿En que departamento se encuentra cultura Nazca en el Perú ?</h3>
               <div class="alternativas">
 
                 <label class="alternativa">
@@ -104,7 +108,7 @@
             </div>
 
             <div class="pregunta">
-              <h2 class="pregunta-text">¿Cuantos departamentos encontramos en el Perú?</h2>
+              <h3 class="pregunta-text">¿Cuantos departamentos encontramos en el Perú?</h3>
               <div class="alternativas">
 
                 <label class="alternativa">
@@ -124,9 +128,10 @@
               </div>
             </div>
           </div>
-
-          <button  type="submit" class="btn btn-principal">Enviar</button>
-          <button type="button" class="btn btn-volver" onclick="mostrarVistaTema()">Volver</button>
+          <div class="botones">
+            <button type="button" class="btn btn-volver" onclick="mostrarVistaTema()">Volver</button>
+            <button  type="submit" class="btn btn-principal">Enviar</button>
+          </div>
         </form>
       </div>
     </main>

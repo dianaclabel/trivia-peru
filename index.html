@@ -27,7 +27,7 @@
           <img class="img-bienvenida" src="./estilos/images/img-peru.png">
         </div>
         <form id="form-bienvenida">
-          <input type="text" name="nombreUsuario" required>
+          <input type="text" name="nombreUsuario" class="input-nombre" placeholder="Ingresa tu nombre..." required>
           <button type="submit" class="btn btn-jugar">Jugar</button>
         </form>
 
@@ -35,6 +35,9 @@
 
       <!-- vista de tema-->
       <div id="vista-tema" class="oculto">
+        <div>
+          <p>Bienvenida, <span class="usuario"></span></p>
+        </div>
         <form id="form-tema">
           <label class="tema">
             <input type="radio" name="tema" value="Historia del Perú" required> Historia del Perú
@@ -53,6 +56,9 @@
 
       <!-- Vista de preguntas -->
       <div id="vista-preguntas" class="oculto">
+        <div>
+          <p>Bienvenida, <span class="usuario"></span></p>
+        </div>
         <form id="form-preguntas">
           <div class="preguntas">
             <div class="pregunta">

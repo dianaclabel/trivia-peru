@@ -3,6 +3,8 @@
 #form-bienvenida{
   display: flex;
   flex-direction: column;
+  align-items: center;
+  
 }
 
 .contenedor-img{
@@ -10,14 +12,24 @@ text-align: center;
 }
 
 .img-bienvenida{
-width: 30%;
-border: 1px solid red;
+width: 40%;
+
 }
 
 .header-titulo{
 text-align: center;
-font-size: 30px;
+font-size: 35px;
 font-family: 'Roboto', sans-serif;
-color: blue;
+margin: 20px;
+color:black;
+
+}
+
+.input-nombre{
+  width: 70%;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 10px;
+
 
 }

@@ -1,21 +1,23 @@
 
 
 #form-bienvenida{
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .contenedor-img{
-  text-align: center;
+text-align: center;
 }
 
 .img-bienvenida{
-  width: 30%;
+width: 30%;
+border: 1px solid red;
 }
 
 .header-titulo{
-  text-align: center;
-  font-size: 30px;
-  font-family: 'Roboto', sans-serif;
-  
+text-align: center;
+font-size: 30px;
+font-family: 'Roboto', sans-serif;
+color: blue;
+
 }

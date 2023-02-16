@@ -9,7 +9,7 @@
 }
 
 .contenedor-principal{
-    border: 1px black solid;
+    border: 2px black solid;
     border-radius: 20px;
     width: 60%;
     margin: auto;
@@ -28,4 +28,3 @@
     border: 1px black solid;
 
 }
-

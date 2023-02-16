@@ -28,7 +28,7 @@
         </div>
         <form id="form-bienvenida">
           <input type="text" name="nombreUsuario" required>
-          <button class="btn btn-jugar">Jugar</button>
+          <button type="submit" class="btn btn-jugar">Jugar</button>
         </form>
 
       </div>
@@ -44,7 +44,7 @@
             <input type="radio" name="tema" value="Cultura General"> Cultura General
           </label>
 
-          <button class="btn btn-elegir">Elegir</button>
+          <button type="submit" class="btn btn-elegir">Elegir</button>
           <button type="button" class="btn btn-volver" onclick="mostrarVistaBienvenida()">Volver</button>
         </form>
 
@@ -60,17 +60,17 @@
               <div class="alternativas">
 
                 <label class="alternativa">
-                  <input type="radio" name="pregunta1" value="Lima" id=lima required>
+                  <input type="radio" name="pregunta1" value="Lima"  required>
                   <p class="alternativa-texto">Lima</p>
                 </label>
 
                 <label class="alternativa">
-                  <input type="radio" name="pregunta1" value="Cuzco" id=cuzco>
+                  <input type="radio" name="pregunta1" value="Cuzco" >
                   <p class="alternativa-texto">Cuzco</p>
                 </label>
 
                 <label class="alternativa">
-                  <input type="radio" name="pregunta1" value="Arequipa" id=arequipa>
+                  <input type="radio" name="pregunta1" value="Arequipa" >
                   <p class="alternativa-texto">Arequipa</p>
                 </label>
               </div>
@@ -119,7 +119,7 @@
             </div>
           </div>
 
-          <button class="btn btn-principal">Enviar</button>
+          <button  type="submit" class="btn btn-principal">Enviar</button>
           <button type="button" class="btn btn-volver" onclick="mostrarVistaTema()">Volver</button>
         </form>
       </div>

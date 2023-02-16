@@ -5,6 +5,7 @@ temaForm.addEventListener("submit", (event) => {
 
   const datos = new FormData(temaForm);
 
+  // valor obtenido en el name tema
   const temaElegido = datos.get("tema");
 
   alert("tema elegido : " + temaElegido);

@@ -3,6 +3,7 @@ const preguntasForm = document.getElementById("form-preguntas");
 preguntasForm.onsubmit = function(event) {
   event.preventDefault();
 
+  // logica reducida
   const datos = new FormData(preguntasForm);
 
   const respuesta1 = datos.get("pregunta1");
@@ -27,9 +28,11 @@ preguntasForm.onsubmit = function(event) {
     alert("Respuesta 3 es incorrecta");
   }
 
- // alert(respuesta1 + " " + respuesta2 + " " + respuesta3);
+  // respuesta seleccionadas 
+  alert(respuesta1 + ", " + respuesta2 + " y " + respuesta3);
 
-
+  
+  //logica larga
   // let opcionmarcada1;
   // let opcionmarcada2;
   // let opcionmarcada3;
@@ -76,9 +79,4 @@ preguntasForm.onsubmit = function(event) {
 
   // alert(opcionmarcada1 + ", " + opcionmarcada2 + " y " + opcionmarcada3);
 }
-
-
-
-
-
 

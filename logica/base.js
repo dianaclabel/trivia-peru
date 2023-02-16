@@ -1,3 +1,4 @@
+// Obtener los elementos por su id
 const vistaBienvenidaDiv = document.getElementById("vista-bienvenida");
 const vistaTemaDiv = document.getElementById("vista-tema")
 const vistaPreguntasDiv = document.getElementById("vista-preguntas");

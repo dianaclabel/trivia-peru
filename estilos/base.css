@@ -20,11 +20,12 @@
 
 .btn {
     text-align: center;
-    margin:30px;
+    margin: 30px;
     height: 30px;
-    width: 250px;
+    width: 50%;
     border-radius: 10px;
     font-family: 'Roboto', sans-serif;
     border: 1px black solid;
+
 }
 

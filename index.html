@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./estilos/base.css">
   <link rel="stylesheet" href="./estilos/bienvenida.css">
+  <link rel="stylesheet" href="./estilos/tema.css">
   <link rel="stylesheet" href="./estilos/preguntas.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -35,11 +36,11 @@
       <!-- vista de tema-->
       <div id="vista-tema" class="oculto">
         <form id="form-tema">
-          <label class="alternativa">
+          <label class="tema">
             <input type="radio" name="tema" value="Historia del Perú" required> Historia del Perú
           </label>
 
-          <label class="alternativa">
+          <label class="tema">
             <input type="radio" name="tema" value="Cultura General"> Cultura General
           </label>
 
@@ -59,33 +60,39 @@
               <div class="alternativas">
 
                 <label class="alternativa">
-                  <input type="radio" name="pregunta1" value="Lima" id=lima required>Lima
+                  <input type="radio" name="pregunta1" value="Lima" id=lima required>
+                  <p class="alternativa-texto">Lima</p>
                 </label>
 
                 <label class="alternativa">
-                  <input type="radio" name="pregunta1" value="Cuzco" id=cuzco>Cuzco
+                  <input type="radio" name="pregunta1" value="Cuzco" id=cuzco>
+                  <p class="alternativa-texto">Cuzco</p>
                 </label>
 
                 <label class="alternativa">
-                  <input type="radio" name="pregunta1" value="Arequipa" id=arequipa>Arequipa
+                  <input type="radio" name="pregunta1" value="Arequipa" id=arequipa>
+                  <p class="alternativa-texto">Arequipa</p>
                 </label>
               </div>
             </div>
 
             <div class="pregunta">
-              <h2 class="pregunta-text">¿en que departamento se encuentra cultura Nazca en el Perú ?</h2>
+              <h2 class="pregunta-text">¿En que departamento se encuentra cultura Nazca en el Perú ?</h2>
               <div class="alternativas">
 
                 <label class="alternativa">
-                  <input type="radio" name="pregunta2" value="cajamarca" required> Cajamarca
+                  <input type="radio" name="pregunta2" value="cajamarca" required>
+                  <p class="alternativa-texto">Cajamarca</p>
                 </label>
 
                 <label class="alternativa">
-                  <input type="radio" name="pregunta2" value="Ica">Ica
+                  <input type="radio" name="pregunta2" value="Ica">
+                  <p class="alternativa-texto">Ica</p>
                 </label>
 
                 <label class="alternativa">
-                  <input type="radio" name="pregunta2" value="Puno"> Puno
+                  <input type="radio" name="pregunta2" value="Puno">
+                  <p class="alternativa-texto"></p>Puno
                 </label>
               </div>
             </div>
@@ -95,15 +102,18 @@
               <div class="alternativas">
 
                 <label class="alternativa">
-                  <input type="radio" name="pregunta3" value="22" required>22
+                  <input type="radio" name="pregunta3" value="22" required>
+                  <p class="alternativa-texto">22</p>
                 </label>
 
                 <label class="alternativa">
-                  <input type="radio" name="pregunta3" value="20">20
+                  <input type="radio" name="pregunta3" value="20">
+                  <p class="alternativa-texto">20</p>
                 </label>
 
                 <label class="alternativa">
-                  <input type="radio" name="pregunta3" value="24">24
+                  <input type="radio" name="pregunta3" value="24">
+                  <p class="alternativa-texto">24</p>
                 </label>
               </div>
             </div>

@@ -27,7 +27,7 @@ preguntasForm.onsubmit = function(event) {
     alert("Respuesta 3 es incorrecta");
   }
 
-  alert(respuesta1 + " " + respuesta2 + " " + respuesta3);
+ // alert(respuesta1 + " " + respuesta2 + " " + respuesta3);
 
 
   // let opcionmarcada1;

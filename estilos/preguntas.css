@@ -3,7 +3,11 @@
   display: block; 
   margin-bottom: 4px;
   margin-right: 4px;
-  padding-block-start: 10px;
-  
+  padding-block-start: 10px;  
+}
 
+.alternativa-texto
+{
+    display: inline;
+    margin-left: 5px;
 }
